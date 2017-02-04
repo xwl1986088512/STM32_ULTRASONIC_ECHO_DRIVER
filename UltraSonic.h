@@ -2,14 +2,12 @@
 #define _UltraSonic_H
 #include"sys.h"
 
-//------------------------------------------------------ÕâÀïÊÇÌì¿Ó×¨Çø=.=------------------------------------------------------
+//------------------------------------------------------è¿™é‡Œæ˜¯å¤©å‘ä¸“åŒº=.=------------------------------------------------------
 
 #define ULTRA_PORT			GPIOB
 #define ULTRA_CLK     			RCC_APB2Periph_GPIOB
 #define ULTRA_TRIG			GPIO_Pin_10
 #define ULTRA_ECHO			GPIO_Pin_11
-
-/*ËÄ¸ö½Å¶¼ÒªÌî¿Ó=.=ºÃÌÖÑáµÄËµ*/
 
 #define TRIG_Send   PBout(5)
 #define ECHO_Reci  PBin(6)
